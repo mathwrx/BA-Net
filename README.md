@@ -2,13 +2,13 @@
 
 ## Introduction
 
-The coronavirus disease 2019 (COVID-19) pandemic is spreading worldwide. Considering the limited clinicians and resources, and the evidence that computed tomography (CT) analysis can achieve comparable sensitivity, specificity and accuracy with reverse-transcription polymerase chain reaction, the automatic segmentation of lung infection from CT scans supplies a rapid and effective strategy for COVID-19 diagnosis, treatment and follow-up. It is challenging because the infection appearance has high intra-class variation and inter-class indistinction in CT slices. Therefore, a new context-aware neural network is proposed for lung infection segmentation. Specifically, the Autofocus and Panorama modules are designed for extracting fine details and semantic knowledge and capturing the long-range dependencies of the context from both peer-level and cross-level. Also, a novel structure consistency rectification is proposed for calibration by depicting the structural relationship between foreground and background.
+In this study, we formulate a boundary-aware context neural network (BA-Net) for 2D medical image segmentation to capture richer context and preserve fine spatial information, which incorporates encoder-decoder architecture. In each stage of the encoder sub-network, a proposed pyramid edge extraction module first obtains multi-granularity edge information. Then a newly designed mini multi-task learning module for jointly learning segments the object masks and detects lesion boundaries, in which a new interactive attention layer is introduced to bridge the two tasks. In this way, information complementarity between different tasks is achieved, which effectively leverages the boundary information to offer strong cues for better segmentation prediction. Finally, a cross feature fusion module acts to selectively aggregate multi-level features from the entire encoder sub-network. By cascading these three modules, richer context and fine-grain features of each stage are encoded.
 
 ![image](img/overview.png)
 
 ## Update
 
-2021/8: the code released.
+2022/5: the code released.
 
 ## Usage
 
@@ -18,8 +18,9 @@ The coronavirus disease 2019 (COVID-19) pandemic is spreading worldwide. Conside
 
 2. Dataset
    
-   You can download original datasets
-   - Download the [Covid-19](https://medicalsegmentation.com/covid19/) dataset.
+   You can download original datasets:
+   - [ISIC-2017]: https://medicalsegmentation.com/covid19/
+   - []
    - Please put dataset in folder `./data/covid_19_seg/`
 
 3. Train and test
@@ -34,6 +35,7 @@ The coronavirus disease 2019 (COVID-19) pandemic is spreading worldwide. Conside
 
 If you consider use this code, please cite our paper:
 
+'''
 
 @article{wang2022boundary,
   title={Boundary-aware context neural network for medical image segmentation},
@@ -44,6 +46,8 @@ If you consider use this code, please cite our paper:
   year={2022},
   publisher={Elsevier}
 }
+
+'''
 
      
  
