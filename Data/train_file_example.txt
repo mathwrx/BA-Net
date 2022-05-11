@@ -1,0 +1,2 @@
+train/Image/cju0qkwl35piu0993l0dewei2.jpg	train/GT/cju0qkwl35piu0993l0dewei2.jpg
+
