@@ -19,23 +19,23 @@ In this study, we formulate a boundary-aware context neural network (BA-Net) for
 2. Dataset
    
    You can download original datasets:
-   - [ISIC-2017]: https://medicalsegmentation.com/covid19/
-   - []
+   - ISIC-2017: https://medicalsegmentation.com/covid19/
+   - 
    - Please put dataset in folder `./data/covid_19_seg/`
 
 3. Train and test
 
    - please run the following code for a quick start:
    -
-   '''
+   ```
    kkk
-   '''
+   ```
 
 ## Reference
 
 If you consider use this code, please cite our paper:
 
-'''
+```
 
 @article{wang2022boundary,
   title={Boundary-aware context neural network for medical image segmentation},
@@ -47,7 +47,7 @@ If you consider use this code, please cite our paper:
   publisher={Elsevier}
 }
 
-'''
+```
 
      
  
