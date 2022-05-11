@@ -36,7 +36,6 @@ In this study, we formulate a boundary-aware context neural network (BA-Net) for
 If you consider use this code, please cite our paper:
 
 ```
-
 @article{wang2022boundary,
   title={Boundary-aware context neural network for medical image segmentation},
   author={Wang, Ruxin and Chen, Shuyuan and Ji, Chaojie and Fan, Jianping and Li, Ye},
@@ -46,7 +45,6 @@ If you consider use this code, please cite our paper:
   year={2022},
   publisher={Elsevier}
 }
-
 ```
 
      
