@@ -21,7 +21,7 @@ In this study, we formulate a boundary-aware context neural network (BA-Net) for
    - ISIC-Dataset: https://challenge.isic-archive.com
    - Kvasir-SEG: https://datasets.simula.no/kvasir-seg/
    - CVC-ColonDB: http://www.cvc.uab.es/CVC-Colon/index.php/databases/
-   - Please put dataset in folder `./data/xx/`
+   - Please put dataset in folder `./Data/xx/`
 
 3. Train and inference
 
